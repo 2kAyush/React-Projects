@@ -1,0 +1,28 @@
+.footer {
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: transparent; */
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: lightgreen;
+}
