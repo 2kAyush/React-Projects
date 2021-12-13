@@ -1,0 +1,254 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Mobiles and Computers"
+    },
+    {
+      "id": 2,
+      "name": "Appliances"
+    },
+    {
+      "id": 3,
+      "name": "Clothing"
+    },
+    {
+      "id": 4,
+      "name": "Home and Furniture"
+    },
+    {
+      "id": 5,
+      "name": "Books"
+    },
+    {
+      "id": 6,
+      "name": "Toys"
+    },
+    {
+      "id": 7,
+      "name": "Sports"
+    },
+    {
+      "id": 8,
+      "name": "Others"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Apple iPhone X",
+      "available": true,
+      "price": 70000,
+      "poster": "https://static.toiimg.com/photo/61654288.cms",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy Note 10",
+      "available": true,
+      "price": 60000,
+      "poster": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/w830_wm_brw/public/article_images/2019/08/galaxy-note-10-s-pen-out-1.jpg?itok=03gHRFqe",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Asus Zenfone 6",
+      "available": true,
+      "price": 20000,
+      "poster": "https://assets.mspimages.in/wp-content/uploads/2019/05/Asus-Zenfone-6-696x365.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Mi TV",
+      "available": true,
+      "price": 30000,
+      "poster": "https://i.gadgets360cdn.com/products/televisions/large/1548153503_832_mi_49-inch-led-full-hd-tv-4a-pro.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sony Bravia 43in Smart TV",
+      "available": true,
+      "price": 80000,
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/61MTM4sWe9L._SX425_.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "LG Washing Machine",
+      "available": true,
+      "price": 30000,
+      "poster": "https://www.lg.com/in/images/washing-machines/md05987837/gallery/medium01.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Samsung AC",
+      "available": true,
+      "price": 40000,
+      "poster": "https://5.imimg.com/data5/AK/WK/MY-2646245/samsung-ac-500x500.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "name": "Item 8",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "name": "Item 9",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 4
+    },
+    {
+      "id": 10,
+      "name": "Item 10",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 4
+    },
+    {
+      "id": 11,
+      "name": "Item 11",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 12,
+      "name": "Item 12",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 13,
+      "name": "Item 13",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 14,
+      "name": "Item 14",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 15,
+      "name": "Item 15",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 16,
+      "name": "Item 16",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 17,
+      "name": "Item 17",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 18,
+      "name": "Item 18",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 19,
+      "name": "Item 19",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 20,
+      "name": "Item 20",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 21,
+      "name": "Item 21",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 22,
+      "name": "Item 22",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 23,
+      "name": "Item 23",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 24,
+      "name": "Item 24",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 25,
+      "name": "Item 25",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 26,
+      "name": "Item 26",
+      "available": true,
+      "price": 10000,
+      "poster": "https://via.placeholder.com/300",
+      "categoryId": 5
+    },
+    {
+      "id": 27,
+      "name": "One Plus 6",
+      "available": true,
+      "price": 40000,
+      "poster": "https://technofaq.org/wp-content/uploads/2018/08/oneplus-6.jpg",
+      "categoryId": 1
+    }
+  ]
+}
