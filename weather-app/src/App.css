@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.util-btns {
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+}
+
+#ip {
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+}
+
+.self {
+  display: flex;
 }
