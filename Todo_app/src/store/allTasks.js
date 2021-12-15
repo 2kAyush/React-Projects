@@ -22,13 +22,6 @@ export const changeId = (id) => {
   return { type: "Do nothing" };
 };
 
-//  {
-//     "userId": 1,
-//     "id": 3,
-//     "title": "fugiat veniam minus",
-//     "completed": false
-//   },
-
 export const addTasks = (taskDetails) => {
   console.log("taskDetails: ", taskDetails);
   return async (dispatch) => {
@@ -49,7 +42,7 @@ export const addTasks = (taskDetails) => {
   };
 };
 
-export default function reducer(state = { todos: [], id: 1 }, action) {
+const reducer = (state = { todos: [], id: 1 }, action) => {
   // console.log("state: ", state);
   switch (action.type) {
     case "GET_TODOS":
@@ -64,6 +57,6 @@ export default function reducer(state = { todos: [], id: 1 }, action) {
     default:
       return state;
   }
-}
+};
 
-// export default reducer;
+export default reducer;

@@ -4,7 +4,6 @@ import { addTasks } from "../store/allTasks";
 
 const Home = () => {
   const dispatch = useDispatch();
-  // console.log(dispatch);
   let id, userId, title, completed;
   return (
     <div className="container my-3">
@@ -22,15 +21,6 @@ const Home = () => {
                 userId = Number(e.target.value);
               }}
             />
-            {/* <input
-              className="form-control me-2"
-              id="ip"
-              type="number"
-              placeholder="Id"
-              onChange={(e) => {
-                id = Number(e.target.value);
-              }}
-            /> */}
             <input
               className="form-control me-2 my-3"
               id="ip"
