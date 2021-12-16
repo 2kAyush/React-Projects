@@ -23,12 +23,11 @@ export const changeId = (id) => {
 };
 
 export const addTasks = (taskDetails) => {
-  console.log("taskDetails: ", taskDetails);
   return async (dispatch) => {
     let response = await fetch(`https://jsonplaceholder.typicode.com/todos`, {
       method: "POST",
       body: JSON.stringify({
-        userId: taskDetails.userId,
+        userId: taskDetails.tagId,
         // id: taskDetails.id,
         title: taskDetails.title,
         completed: taskDetails.isCompleted,

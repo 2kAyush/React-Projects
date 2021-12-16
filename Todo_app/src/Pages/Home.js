@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTasks } from "../store/allTasks";
 
 const Home = () => {
   const dispatch = useDispatch();
-  let id, userId, title, completed;
+  const [tagId, setTagId] = useState("");
+  const [title, setTitle] = useState("");
+  const [completed, setCompleted] = useState("");
   return (
     <div className="container my-3">
       <h1>Todo-list</h1>
@@ -16,9 +18,10 @@ const Home = () => {
               className="form-control me-2"
               id="ip"
               type="number"
-              placeholder="User Id"
+              placeholder="Tag Id"
+              value={tagId}
               onChange={(e) => {
-                userId = Number(e.target.value);
+                setTagId(Number(e.target.value));
               }}
             />
             <input
@@ -26,8 +29,9 @@ const Home = () => {
               id="ip"
               type="text"
               placeholder="Is Completed?"
+              value={completed}
               onChange={(e) => {
-                completed = e.target.value;
+                setCompleted(e.target.value);
               }}
             />
             <input
@@ -35,26 +39,31 @@ const Home = () => {
               // id="ip"
               type="text"
               placeholder="Task name"
+              value={title}
               onChange={(e) => {
-                title = e.target.value;
+                setTitle(e.target.value);
               }}
             />
           </div>
           <button
             className="btn-sm btn-primary util-btns my-1"
             onClick={() => {
-              dispatch(addTasks({ userId, id, title, completed }));
+              dispatch(addTasks({ tagId, title, completed }));
+              setCompleted("");
+              setTagId("");
+              setTitle("");
+              alert("Successfully added");
             }}
           >
             Add
           </button>
         </div>
       </div>
-      <h1>Your Tasks</h1>
+      {/* <h1>Your Tasks</h1>
       <hr />
       <div id="notes" className="row container-fluid">
         <ul id="listTasks"></ul>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -34,7 +34,7 @@ const TagTasks = () => {
           Search
         </button>
       </div>
-      <h1>User {id}'s Tasks: </h1>
+      <h1>Tasks with Tag {id} </h1>
       {todos.map((todo) => {
         return (
           <div key={ctr}>
